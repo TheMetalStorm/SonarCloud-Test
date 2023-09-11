@@ -9,8 +9,17 @@ public class Main {
 
         String password = "blue";
 
-        for (;;) {  // Noncompliant; end condition omitted
+        for (; ; ) {  // Noncompliant; end condition omitted
             // ...
         }
     }
+
+    int foo(int a) {
+        int b = 12;
+        if (a == 1) {
+            return b;
+        }
+        return b;  // Noncompliant
+    }
+
 }
