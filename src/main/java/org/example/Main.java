@@ -14,20 +14,5 @@ public class Main {
         }
     }
 
-    int aa(int a) {
-        int b = 12;
-        if (a == 1) {
-            return b;
-        }
-        return b;  // Noncompliant
-    }
-
-    int bb(int a) {
-        int b = 12;
-        if (a == 1) {
-            return b;
-        }
-        return b;  // Noncompliant
-    }
 
 }
