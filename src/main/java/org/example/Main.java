@@ -7,5 +7,10 @@ public class Main {
         String b = "";
         String x = "";
 
+        String password = "blue";
+
+        for (;;) {  // Noncompliant; end condition omitted
+            // ...
+        }
     }
 }
