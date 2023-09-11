@@ -3,6 +3,6 @@
   <component name="SonarLintProjectSettings">
     <option name="bindingEnabled" value="true" />
     <option name="projectKey" value="TheMetalStorm_SonarCloud-Test" />
-    <option name="serverId" value="Test" />
+    <option name="serverId" value="A" />
   </component>
 </project>

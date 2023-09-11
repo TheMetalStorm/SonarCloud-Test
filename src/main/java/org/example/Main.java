@@ -9,8 +9,6 @@ public class Main {
 
         String password = "blue";
 
-        String ip = "192.168.12.42"; // Sensitive
-
         for (; ; ) {  // Noncompliant; end condition omitted
             // ...
         }
