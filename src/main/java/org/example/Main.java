@@ -1,9 +1,17 @@
 package org.example;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
-        String password = "1234";
-        String password2 = "1234";
+
+        Random rand = new Random();
+        String a = "a";
+        while (a.equals("a")) {
+            if (rand.nextInt(2) == 1) {
+                a = "b";
+            }
+        }
 
     }
 
