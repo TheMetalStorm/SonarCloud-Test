@@ -1,25 +1,20 @@
 package org.example;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        String a = "";
-        String b = "";
-        String x = "";
 
-        String password = "blue";
-
-        for (; ; ) {  // Noncompliant; end condition omitted
-            // ...
+        Random rand = new Random();
+        String a = "a";
+        while (a.equals("a")) {
+            if (rand.nextInt(2) == 1) {
+                a = "b";
+            }
         }
+
     }
 
-    int foo(int a) {
-        int b = 12;
-        if (a == 1) {
-            return b;
-        }
-        return b;  // Noncompliant
+    public void doSomething() {
     }
-
 }
