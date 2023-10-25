@@ -5,6 +5,7 @@ public class Testy {
 
     @Test
     public void testy() {
+        String password = "blue";
         Assertions.assertEquals(1, 1);
     }
 }
